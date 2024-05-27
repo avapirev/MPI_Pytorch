@@ -171,7 +171,7 @@ def pipeline():
     acc = 0
     if rank == 0:
         LOGGER.info('Logger Initialized')
-        df = pd.read_csv("./project/project_git/MPI_Pytorch/data/test_sample.csv")
+        df = pd.read_csv("./data/test_sample.csv")
 
         # assign a predictor node for each image, the nodes are assigned from the uniform distribution of
         # numpy rand int
