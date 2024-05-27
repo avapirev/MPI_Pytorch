@@ -19,12 +19,12 @@ Directories
 The Dataset paths should point to the directory where the dataset is stored (images + metadata.json)
 """
 # Dataset paths
-TRAIN_DIR: str = "./project/project_git/MPI_Pytorch/data/train/"
+TRAIN_DIR: str = "./data/train/"
 TRAIN_FILE: str = "metadata.json"
-TEST_DIR: str = "./project/project_git/MPI_Pytorch/data/test/"
+TEST_DIR: str = "./data/test/"
 # model & checkpoint paths
-CHECKPOINT_DIR: str = "./project/project_git/MPI_Pytorch/checkpoints/"
-MODELS_DIR: str = "./project/project_git/MPI_Pytorch/models/"
+CHECKPOINT_DIR: str = "./checkpoints/"
+MODELS_DIR: str = "./models/"
 
 """
 Image constants
